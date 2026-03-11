@@ -24,4 +24,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ vars.DOCKERHUB_USERNAME }}/qqchannel-bot:${{ github.ref_name }}
+          tags: ${{ vars.DOCKERHUB_USERNAME }}/paotuan:${{ github.ref_name }}
