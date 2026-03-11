@@ -2,7 +2,6 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ "master" ]
     tags:
       - 'v*'  # 匹配所有以 v 开头的标签
 
